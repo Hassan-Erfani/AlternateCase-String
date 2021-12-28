@@ -13,7 +13,7 @@ public class Kata {
         }
         for (int i = 0; i < string.length(); i++) {
             char c = string.charAt(i);
-            if (c == ' ' && i != string.length()-1) {
+            if (c == ' ') {
                 str += c;
             } else if (isUpperCase(c)) {
                 str += toLowerCase(c);
